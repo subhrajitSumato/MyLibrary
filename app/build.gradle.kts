@@ -67,6 +67,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation(project(":image-preview"))
-
+    //implementation(project(":image-preview"))
+    implementation("com.github.subhrajitSumato:MyLibrary:1.0")
 }

@@ -17,7 +17,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.image_preview.ImagePreview
 import com.example.mylibrary.ui.theme.MyLibraryTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,13 +28,13 @@ class MainActivity : ComponentActivity() {
                     contentAlignment = Alignment.Center,
                     modifier = Modifier.fillMaxSize()
                 ){
-                    ImagePreview(
+                    /*ImagePreview(
                         image = painterResource(id = R.drawable.iconn),
                         description = "My Library",
                         modifier = Modifier
                             .align(Alignment.Center)
                             .size(150.dp)
-                    )
+                    )*/
                 }
             }
         }
